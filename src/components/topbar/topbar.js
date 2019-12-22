@@ -18,8 +18,8 @@ export default class TopScreen extends React.Component {
         />
         <div className="TopBarRightSide">
           <TitleSearch />
-          <div style={{ width: 20 }} />
           <SpanishBox />
+          <div className="TopBarExit" />
         </div>
       </div>
     );
