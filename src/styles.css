@@ -1,0 +1,97 @@
+.BookFlix {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.TopBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.TopBarIcon {
+  position: relative;
+  width: 120px;
+  height: 25px;
+  padding: 17px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.TopBarTitleSearch {
+  position: relative;
+  top: 10px;
+  border-radius: 35px;
+  background: #ffffff99;
+  padding: 5px;
+  width: 175px;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.TopBarTitleSearchInput {
+  position: relative;
+  border: #00000000;
+  background-color: #00000000;
+  left: 10px;
+  width: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #adadad;
+}
+
+.TopBarTitleSearchInput::placeholder {
+  color: #adadad;
+}
+
+.TopBarTitleSearchButton {
+  display: block;
+  width: 40px;
+  height: 40px;
+  bottom: 9px;
+  left: 145px;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+  background-color: #2669b2;
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    -webkit-gradient(linear, left top, left bottom, from(#4ea2d9), to(#2669b2));
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    linear-gradient(to bottom, #4ea2d9, #2669b2);
+  background-size: 60%, 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  outline: 0;
+}
+
+.TopBarTitleSearchButton:hover[type="submit"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  bottom: 9px;
+  left: 145px;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+  background-color: #2669b2;
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    -webkit-gradient(linear, left top, left bottom, from(#4ea2d9), to(#4ea2d9));
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    linear-gradient(to bottom, #4ea2d9, #4ea2d9);
+  background-size: 60%, 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  outline: 0;
+}
+body {
+  background-image: url("https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/home.jpg");
+  background-color: #cccccc;
+}
