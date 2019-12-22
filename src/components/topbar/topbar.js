@@ -2,6 +2,7 @@ import * as React from "react";
 import "./../../styles.css";
 
 import TitleSearch from "./titlesearch";
+import SpanishBox from "./spanishbox";
 
 export default class TopScreen extends React.Component {
   constructor(props) {
@@ -15,7 +16,11 @@ export default class TopScreen extends React.Component {
           className="TopBarIcon"
           src="https://da-content.digital.scholastic.com/bfx/prod/assets/img/BookFlix_logo_Final_R.png"
         />
-        <TitleSearch />
+        <div className="TopBarRightSide">
+          <TitleSearch />
+          <div style={{ width: 20 }} />
+          <SpanishBox />
+        </div>
       </div>
     );
   }
