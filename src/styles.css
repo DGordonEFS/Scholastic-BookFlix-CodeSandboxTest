@@ -163,8 +163,8 @@ body {
 .TopBarSpanishBoxSliderChecked {
   position: relative;
   left: 10px;
-  width: 42px;
-  height: 20px;
+  width: 40px;
+  height: 19px;
   padding: 2px;
   background-color: #ffffff;
   border-style: solid;
@@ -250,6 +250,59 @@ body {
   }
 }
 
+@keyframes swingFeaturedPair {
+  0% {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+  }
+  20% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+  }
+  40% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+  }
+  70% {
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+  }
+  80% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+  }
+  90% {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+
 .HomeTitleFeaturedPair {
   background: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/featured_pair_rec_bg.svg)
     0 0/100% no-repeat;
@@ -265,6 +318,13 @@ body {
   max-width: 458px;
 
   cursor: pointer;
+}
+
+.HomeTitleFeaturedPair:hover {
+  -webkit-animation-name: swingFeaturedPair; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: swingFeaturedPair;
+  animation-duration: 1s;
 }
 
 .HomeTitleFeaturedPairLogo {
@@ -391,6 +451,8 @@ body {
 }
 
 .HomeBook {
+  position: relative;
+  top: 0%;
   min-width: 50px;
   max-width: 240px;
   height: 88%;
@@ -403,6 +465,14 @@ body {
   padding: 0.3em 0.4em;
   padding-bottom: 6%;
   outline: 0;
+  transition: 0.2s linear all;
+}
+
+.HomeBook:hover {
+  position: relative;
+  top: 2.5%;
+  background-color: transparent;
+  transition: 0.1s linear all;
 }
 
 .HomeBookImage {
