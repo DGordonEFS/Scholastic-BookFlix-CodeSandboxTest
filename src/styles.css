@@ -23,6 +23,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .TopBar {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .TopBar {
     margin-bottom: 0px;
@@ -264,8 +270,6 @@
 .HomeTitleFeaturedPairContent {
   width: 100%;
   height: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: bottom;
   -ms-flex-align: bottom;
@@ -305,6 +309,7 @@
     width: 100%;
     max-width: 675px;
     padding-top: 20%;
+    padding-bottom: 15%;
   }
 
   .HomeTitleFeaturedPairItemLeft {
@@ -346,7 +351,7 @@
 
 @media screen and (max-width: 800px) {
   .HomeTitleText {
-    width: 313px;
+    width: 300px;
   }
 }
 
@@ -367,6 +372,75 @@
   text-align: left;
   color: #293966;
   margin-bottom: 13px;
+}
+
+.HomeBooks {
+  position: relative;
+  left: 37%;
+  width: 63%;
+  margin-top: -30%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+}
+
+.HomeBook {
+  min-width: 50px;
+  max-width: 240px;
+  height: 88%;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2),
+    0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 0.3em 0.4em;
+  padding-bottom: 6%;
+  outline: 0;
+}
+
+.HomeBookImage {
+  width: 100%;
+  height: 90%;
+}
+
+.HomeBookText {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .HomeBooks {
+    left: 0%;
+    width: 100%;
+    margin-top: -5%;
+    grid-gap: 15px;
+  }
+
+  .HomeBook {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HomeBooks {
+    grid-template-columns: auto auto;
+  }
+
+  .HomeBook {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .HomeBooks {
+    margin-top: 0%;
+    grid-template-columns: auto;
+  }
+
+  .HomeBook {
+    max-width: 450px;
+    padding-bottom: 2%;
+  }
 }
 
 body {
