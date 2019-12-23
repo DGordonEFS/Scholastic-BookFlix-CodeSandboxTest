@@ -1,0 +1,210 @@
+.TopBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .TopBar {
+    margin-bottom: 85px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .TopBar {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .TopBar {
+    margin-bottom: 0px;
+  }
+}
+
+.TopBarIcon {
+  position: relative;
+  width: 120px;
+  height: 23px;
+  z-index: 2;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.TopBarRightSide {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TopBarTitleSearch {
+  position: relative;
+  top: 10px;
+  border-radius: 35px;
+  background: #ffffff99;
+  padding: 4px;
+  width: 175px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.TopBarTitleSearchInput {
+  position: relative;
+  border: #00000000;
+  background-color: #00000000;
+  left: 10px;
+  width: 125px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #adadad;
+}
+
+.TopBarTitleSearchInput::placeholder {
+  color: #adadad;
+}
+
+.TopBarTitleSearchButton {
+  display: block;
+  width: 40px;
+  height: 40px;
+  bottom: 9px;
+  left: 145px;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+  background-color: #2669b2;
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    -webkit-gradient(linear, left top, left bottom, from(#4ea2d9), to(#2669b2));
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    linear-gradient(to bottom, #4ea2d9, #2669b2);
+  background-size: 60%, 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  outline: 0;
+}
+
+.TopBarTitleSearchButton:hover[type="submit"] {
+  background-color: #2669b2;
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    -webkit-gradient(linear, left top, left bottom, from(#4ea2d9), to(#4ea2d9));
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/search.svg),
+    linear-gradient(to bottom, #4ea2d9, #4ea2d9);
+}
+
+.TopBarSpanishBox {
+  cursor: pointer;
+  position: relative;
+  top: 12px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 133px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 22.5px;
+  background-color: #fff;
+  vertical-align: middle;
+  -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.75);
+}
+
+.TopBarSpanishBox:hover {
+  background-color: #eeeeee;
+}
+
+.TopBarSpanishBoxSlider {
+  position: relative;
+  left: 10px;
+  width: 40px;
+  height: 19px;
+  padding: 2px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ccc;
+  border-radius: 22.5px;
+  transition: 0.25s linear all;
+}
+
+.TopBarSpanishBoxSliderChecked {
+  position: relative;
+  left: 10px;
+  width: 40px;
+  height: 19px;
+  padding: 2px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2196f3;
+  border-radius: 22.5px;
+  transition: 0.25s linear all;
+}
+
+.TopBarSpanishBoxSliderThumb {
+  position: relative;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  background-color: #ccc;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ccc;
+  border-radius: 22.5px;
+  transition: 0.25s linear all;
+}
+
+.TopBarSpanishBoxSliderThumbChecked {
+  position: relative;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  background-color: #2196f3;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2196f3;
+  border-radius: 22.5px;
+  transition: 0.25s linear all;
+}
+
+.TopBarSpanishBoxText {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #2196f3;
+}
+
+.TopBarExit {
+  position: relative;
+  top: 10px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  background: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/teacher.png)
+    50% 50% no-repeat #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.TopBarExit:hover {
+  background-color: #eeeeee;
+}

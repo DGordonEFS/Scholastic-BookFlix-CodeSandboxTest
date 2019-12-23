@@ -3,19 +3,11 @@ import * as React from "react";
 export default class FeaturedPair extends React.Component {
   constructor(props) {
     super(props);
-    this.onMouseEnter = this.onMouseEnter.bind(this);
-  }
-
-  onMouseEnter() {
-    console.log("mouse enter");
   }
 
   render() {
     return (
-      <div
-        className="HomeTitleFeaturedPair"
-        onMouseEnter={() => this.onMouseEnter()}
-      >
+      <div className="HomeTitleFeaturedPair">
         <img
           className="HomeTitleFeaturedPairLogo"
           src="https://da-content.digital.scholastic.com/bfx/prod/assets/img/weston-woods-color.png"

@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./../../styles.css";
 
 export default class SpanishBox extends React.Component {
   constructor(props) {

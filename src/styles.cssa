@@ -1,6 +1,5 @@
 body {
   background-image: url("https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/home.jpg");
-  background-color: #cccccc;
   font-family: Castledown, Arial, Helvetica, sans-serif;
 }
 
@@ -14,6 +13,18 @@ body {
   margin-left: 35px;
   margin-right: 35px;
   max-width: 1350px;
+}
+
+.Category {
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 1350px;
+}
+
+.CategoryBackground {
+  background-image: url(https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/node-33978.jpg);
+  background-size: cover;
+  overflow-x: scroll;
 }
 
 .TopBar {
@@ -227,7 +238,7 @@ body {
   background-color: #eeeeee;
 }
 
-.HomeTitleBar {
+.TitleBar {
   display: -webkit-flex; /* Safari */
   -webkit-flex-direction: row; /* Safari 6.1+ */
   display: flex;
@@ -237,7 +248,7 @@ body {
   width: 100%;
 }
 @media screen and (min-width: 1000px) {
-  .HomeTitleBar {
+  .TitleBar {
     -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -245,7 +256,7 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .HomeTitleBar {
+  .TitleBar {
     margin-top: -50px;
   }
 }
@@ -465,6 +476,7 @@ body {
   padding: 0.3em 0.4em;
   padding-bottom: 6%;
   outline: 0;
+  cursor: pointer;
   transition: 0.2s linear all;
 }
 
@@ -517,4 +529,133 @@ body {
     max-width: 450px;
     padding-bottom: 2%;
   }
+}
+
+.CategoryBooks {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.CategoryBook {
+  position: relative;
+  top: 0%;
+  border-radius: 10px;
+  background-color: #fff;
+  outline: 0;
+
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.1s linear all;
+}
+
+.CategoryBook:hover {
+  position: relative;
+  top: 2.5%;
+  transition: 0.1s linear all;
+}
+
+.CategoryBookContents {
+  border-radius: 10px;
+  background-color: rgba(225, 225, 235, 0.2);
+  outline: 0;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 96%;
+  height: 93%;
+  cursor: pointer;
+  transition: 0.1s linear all;
+}
+
+.CategoryBookContents:hover {
+  background-color: rgba(225, 225, 235, 0.6);
+  transition: 0.1s linear all;
+}
+
+.CategoryBookLogo {
+  margin-top: 4%;
+  width: 15%;
+  height: auto;
+  padding-left: 20%;
+}
+
+.CategoryBookImageContents {
+  margin-top: 0%;
+  width: 100%;
+  height: 78%;
+  display: flex;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
+  justify-content: space-around;
+  margin-bottom: -5%;
+}
+
+.CategoryBookImageLeft {
+  max-width: 46%;
+  width: auto;
+  height: auto;
+  padding-right: 1%;
+  padding-left: 3%;
+  padding-bottom: 2%;
+}
+
+.CategoryBookImageRight {
+  max-width: 46%;
+  width: auto;
+  height: auto;
+  padding-left: 1%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
+
+.CategoryTitleText {
+  margin-top: 0px;
+  margin-left: 0px;
+  height: auto;
+  font-size: 34px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #293966;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1000px) {
+  .CategoryTitleText {
+    margin-top: 75px;
+    margin-left: 0px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .CategoryTitleText {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .CategoryTitleText {
+    width: 500px;
+  }
+}
+
+.CategoryTitleSubText {
+  height: auto;
+  font-size: 11px;
+  font-weight: 950;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #293966;
+  margin-bottom: 30px;
 }
