@@ -1,6 +1,6 @@
 export default {
   category: "familyandcommunity",
-  title: "FamilyAndCommunity",
+  title: "Family And Community",
   subtitle: "Find your favorites...",
   background:
     "https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/node-33985.jpg",
