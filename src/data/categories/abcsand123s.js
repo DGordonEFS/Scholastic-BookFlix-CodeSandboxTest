@@ -1,7 +1,7 @@
 export default {
   category: "abcsand123s",
   title: "ABCs and 123s",
-  subtitle: "Find your favorites",
+  subtitle: "Find your favorites...",
   background:
     "https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/node-33984.jpg",
   books: [

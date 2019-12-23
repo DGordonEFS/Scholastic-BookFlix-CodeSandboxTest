@@ -39,7 +39,7 @@ export default class HomeScreen extends React.Component {
         <link rel="stylesheet" type="text/css" href={"./../,./css/home.css"} />
         <div className="Home">
           <TopBar />
-          <div className="TitleBar">
+          <div className="HomeTitleBar">
             <div className="HomeTitleText">
               Explore the world of reading!
               <div className="HomeTitleSubText">

@@ -38,8 +38,6 @@ export default class CategoryScreen extends React.Component {
       return <Book key={index} book={book} onSelect={() => onSelect(index)} />;
     });
 
-    console.log(books);
-
     return (
       <div className="BookFlix">
         <link
@@ -48,8 +46,8 @@ export default class CategoryScreen extends React.Component {
           href={"./../../css/category.css"}
         />
         <div className="Category">
-          <TopBar onIconClick={() => this.onIconClick()} />
-          <div className="TitleBar">
+          <TopBar home={true} onIconClick={() => this.onIconClick()} />
+          <div className="CategoryTitleBar">
             <div className="CategoryTitleText">
               {category.title}
               <div className="CategoryTitleSubText">{category.subtitle}</div>

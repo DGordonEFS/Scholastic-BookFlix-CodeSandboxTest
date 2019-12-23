@@ -6,7 +6,6 @@ import HomeScreen from "./components/home/homescreen";
 import CategoryScreen from "./components/category/categoryscreen";
 
 import "./css/bookflix.css";
-import "./css/titlebar.css";
 import "./css/topbar.css";
 import "./css/home.css";
 

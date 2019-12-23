@@ -14,13 +14,23 @@ export default class TopScreen extends React.Component {
   }
 
   render() {
+    var displayHome = this.props.home == true ? "initial" : "none";
     return (
       <div className="TopBar">
-        <img
-          onMouseUp={() => this.onIconClick()}
-          className="TopBarIcon"
-          src="https://da-content.digital.scholastic.com/bfx/prod/assets/img/BookFlix_logo_Final_R.png"
-        />
+        <div className="TopBarLeftSide">
+          <img
+            onMouseUp={() => this.onIconClick()}
+            className="TopBarIcon"
+            src="https://da-content.digital.scholastic.com/bfx/prod/assets/img/BookFlix_logo_Final_R.png"
+          />
+          <input
+            className="TopBarHomeButton"
+            type="submit"
+            value=""
+            style={{ display: displayHome }}
+            onMouseUp={() => this.onIconClick()}
+          />
+        </div>
         <div className="TopBarRightSide">
           <TitleSearch />
           <SpanishBox />

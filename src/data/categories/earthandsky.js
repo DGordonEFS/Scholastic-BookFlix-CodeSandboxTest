@@ -1,7 +1,7 @@
 export default {
   category: "earthandsky",
   title: "Earth and Sky",
-  subtitle: "Find your favorites",
+  subtitle: "Find your favorites...",
   background:
     "https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/node-33979.jpg",
   books: [

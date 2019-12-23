@@ -1,7 +1,7 @@
 export default {
   category: "musicandrhyme",
   title: "Music and Rhyme",
-  subtitle: "Find your favorites",
+  subtitle: "Find your favorites...",
   background:
     "https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/node-33986.jpg",
   books: [
