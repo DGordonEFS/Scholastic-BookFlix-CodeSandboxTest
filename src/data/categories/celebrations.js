@@ -8,72 +8,100 @@ export default {
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0111pr/bk0111sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0128pr/bk0128sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0111pr/bk0111bce.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0128pr/bk0128bcem.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0115pr/bk0115sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0029pr/bk0029sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0115pr/bk0115bcem.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0029pr/bk0029bce.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0007pr/bk0007sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0117pr/bk0117sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0007pr/bk0007bcem.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0117pr/bk0117bcem.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0112pr/bk0112sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0030pr/bk0030sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0112pr/bk0112bcem.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0030pr/bk0030bcem.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0001pr/bk0001sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0104pr/bk0104sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0001pr/bk0001bcem.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0104pr/bk0104bcem.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0131pr/bk0131sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0036pr/bk0036sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0131pr/bk0131bcem.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0036pr/bk0036bce.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0082pr/bk0082sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0070pr/bk0070sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0082pr/bk0082bce.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0070pr/bk0070bcem.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0011pr/bk0011sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0037pr/bk0037sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0011pr/bk0011bcem.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0037pr/bk0037bcem.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0002pr/bk0002sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0116pr/bk0116sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0002pr/bk0002bce.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0116pr/bk0116bce.jpg"
     },
     {
       banner: true,
       book1:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0018pr/bk0018sce.jpg",
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0040pr/bk0040sce.jpg",
       book2:
-        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0018pr/bk0018bce.jpg"
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0040pr/bk0040bce.jpg"
+    },
+    {
+      banner: true,
+      book1:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0042pr/bk0042sce.jpg",
+      book2:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0042pr/bk0042bce.jpg"
+    },
+    {
+      banner: true,
+      book1:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0067pr/bk0067sce.jpg",
+      book2:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0067pr/bk0067bcem.jpg"
+    },
+    {
+      banner: true,
+      book1:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0124pr/bk0124sce.jpg",
+      book2:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0124pr/bk0124bcem.jpg"
+    },
+    {
+      banner: true,
+      book1:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0056pr/bk0056sce.jpg",
+      book2:
+        "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0056pr/bk0056bce.jpg"
     }
   ]
 };
