@@ -2,6 +2,7 @@ export default {
   category: "animalsandnature",
   title: "Animals and Nature",
   subtitle: "Find your favorites...",
+  color: "#2ba96caa",
   background:
     "https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/node-33978.jpg",
   books: [

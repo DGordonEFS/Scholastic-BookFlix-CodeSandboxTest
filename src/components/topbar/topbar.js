@@ -2,6 +2,7 @@ import * as React from "react";
 
 import TitleSearch from "./titlesearch";
 import SpanishBox from "./spanishbox";
+import InsideBox from "./insidebox";
 
 export default class TopScreen extends React.Component {
   constructor(props) {
@@ -32,8 +33,12 @@ export default class TopScreen extends React.Component {
           />
         </div>
         <div className="TopBarRightSide">
-          <TitleSearch />
-          <SpanishBox />
+          <InsideBox
+            entry={this.props.entry}
+            visible={this.props.entry !== undefined}
+          />
+          <TitleSearch visible={this.props.entry == undefined} />
+          <SpanishBox visible={this.props.entry == undefined} />
           <div className="TopBarExit" />
         </div>
       </div>

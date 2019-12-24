@@ -5,6 +5,11 @@ export default class SpanishBox extends React.Component {
     super(props);
     this.state = { enabled: false };
     this.onMouseUp = this.onMouseUp.bind(this);
+    this.getDisplay = this.getDisplay.bind(this);
+  }
+
+  getDisplay() {
+    return this.props.visible ? "initial" : "none";
   }
 
   onMouseUp() {
@@ -20,11 +25,13 @@ export default class SpanishBox extends React.Component {
       ? "TopBarSpanishBoxSliderThumbChecked"
       : "TopBarSpanishBoxSliderThumb";
     return (
-      <div className="TopBarSpanishBox" onMouseUp={() => this.onMouseUp()}>
-        <div className={thumbBorderClass}>
-          <div className={thumbClass} />
+      <div style={{ display: this.getDisplay() }}>
+        <div className="TopBarSpanishBox" onMouseUp={() => this.onMouseUp()}>
+          <div className={thumbBorderClass}>
+            <div className={thumbClass} />
+          </div>
+          <div className="TopBarSpanishBoxText">Español</div>
         </div>
-        <div className="TopBarSpanishBoxText">Español</div>
       </div>
     );
   }

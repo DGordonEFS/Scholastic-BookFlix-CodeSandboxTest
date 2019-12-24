@@ -1,0 +1,133 @@
+.Entry {
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 1350px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.EntrySideBar {
+  display: block;
+  left: 25;
+  top: 150px;
+  max-width: 300px;
+  width: 100%;
+  background-color: #ffffff88;
+}
+
+.EntrySideBarText {
+  width: auto;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2669b2;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-left: 100px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.EntrySideBarButton {
+  width: 80%;
+  height: 42px;
+  margin-bottom: 7px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2),
+    0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  padding-top: 5px;
+  min-width: 230px;
+  border: 0;
+  display: flex;
+  cursor: pointer;
+  color: #000;
+}
+
+.EntrySideBarButton:hover {
+  background-color: #293966;
+  color: #fff;
+}
+
+.EntrySideBarButtonSelected {
+  float: left;
+  width: 87.5%;
+  height: 60px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#8ae2ff),
+    to(#3bf)
+  );
+  background: linear-gradient(to bottom, #8ae2ff, #3bf);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.EntrySideBarButtonImage {
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.EntrySideBarButtonImageOver {
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  margin-left: 50px;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) brightness(-500%) invert(100%); /* Safari */
+  filter: grayscale(100%) brightness(-500%) invert(100%);
+}
+
+.EntrySideBarButtonText {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.EntrySideBarBack {
+  display: flex;
+  left: 25;
+  top: 150px;
+  max-width: 300px;
+  width: 100%;
+  height: 40px;
+}
+
+.EntrySideBarBackText {
+  margin-top: 11px;
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: 750;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #293966;
+  cursor: pointer;
+}
