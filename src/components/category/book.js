@@ -3,11 +3,16 @@ import * as React from "react";
 export default class Book extends React.Component {
   constructor(props) {
     super(props);
+    this.onSelect = this.onSelect.bind(this);
+  }
+
+  onSelect() {
+    if (this.props.onSelect !== undefined) this.props.onSelect();
   }
 
   render() {
     return (
-      <div className="CategoryBook">
+      <div className="CategoryBook" onMouseUp={() => this.onSelect()}>
         <div className="CategoryBookContents">
           <img
             className="CategoryBookLogo"

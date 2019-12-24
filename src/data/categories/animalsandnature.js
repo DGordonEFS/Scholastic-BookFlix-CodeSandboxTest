@@ -6,6 +6,7 @@ export default {
     "https://da-content.digital.scholastic.com/bfx/prod/assets/img/backgrounds/node-33978.jpg",
   books: [
     {
+      inside: "And Then It's Spring and How Do You Know It's Spring?",
       banner: true,
       book1:
         "https://da-content.digital.scholastic.com/bfx/prod/pairs/bk0111pr/bk0111sce.jpg",

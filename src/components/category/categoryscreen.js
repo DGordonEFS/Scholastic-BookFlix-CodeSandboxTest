@@ -9,24 +9,32 @@ import "./../../css/category.css";
 export default class CategoryScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { iconClicked: false };
+    this.state = { iconClicked: false, bookSelected: -1 };
 
     this.onSelect = this.onSelect.bind(this);
     this.onIconClick = this.onIconClick.bind(this);
   }
 
-  onSelect(index) {}
+  onSelect(index) {
+    console.log("onselected: " + index);
+    this.setState({ bookSelected: index });
+  }
 
   onIconClick() {
     this.setState({ iconClicked: true });
   }
 
   render() {
+    const { params } = this.props.match;
+
+    if (this.state.bookSelected > -1) {
+      var url = "/category/" + params.id + "/" + this.state.bookSelected;
+      return <Redirect to={url} push={true} />;
+    }
+
     if (this.state.iconClicked) {
       return <Redirect to="/" push={true} />;
     }
-
-    const { params } = this.props.match;
 
     var category = this.props.data[params.id];
 
@@ -40,11 +48,6 @@ export default class CategoryScreen extends React.Component {
 
     return (
       <div className="BookFlix">
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href={"./../../css/category.css"}
-        />
         <div className="Category">
           <TopBar home={true} onIconClick={() => this.onIconClick()} />
           <div className="CategoryTitleBar">

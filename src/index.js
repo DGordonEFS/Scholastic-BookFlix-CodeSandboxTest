@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import HomeScreen from "./components/home/homescreen";
 import CategoryScreen from "./components/category/categoryscreen";
+import EntryScreen from "./components/entry/entryscreen";
 
 import "./css/bookflix.css";
 import "./css/topbar.css";
@@ -40,6 +41,10 @@ ReactDOM.render(
       <Route exact path="/">
         <HomeScreen books={HomePairs} />
       </Route>
+      <Route
+        path="/category/:category/:id"
+        render={props => <EntryScreen {...props} data={categories} />}
+      />
       <Route
         path="/category/:id"
         render={props => <CategoryScreen {...props} data={categories} />}
