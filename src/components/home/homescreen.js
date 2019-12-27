@@ -36,9 +36,8 @@ export default class HomeScreen extends React.Component {
 
     return (
       <div className="BookFlix">
-        <link rel="stylesheet" type="text/css" href={"./../,./css/home.css"} />
+        <TopBar />
         <div className="Home">
-          <TopBar />
           <div className="HomeTitleBar">
             <div className="HomeTitleText">
               Explore the world of reading!

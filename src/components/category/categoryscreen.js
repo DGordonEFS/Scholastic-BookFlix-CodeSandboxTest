@@ -48,8 +48,8 @@ export default class CategoryScreen extends React.Component {
 
     return (
       <div className="BookFlix">
+        <TopBar home={true} onIconClick={() => this.onIconClick()} />
         <div className="Category">
-          <TopBar home={true} onIconClick={() => this.onIconClick()} />
           <div className="CategoryTitleBar">
             <div className="CategoryTitleText">
               {category.title}
